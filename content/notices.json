@@ -1,0 +1,35 @@
+[
+  {
+    "id": "notice-admission",
+    "titleGu": "ધોરણ ૧ થી ૮ માં નવા પ્રવેશ શરૂ (શૈક્ષણિક સત્ર)",
+    "titleEn": "New Admissions Open for Grades 1 to 8",
+    "date": "2026-06-01",
+    "categoryGu": "પ્રવેશ",
+    "badge": "મહત્વપૂર્ણ",
+    "descriptionGu": "શ્રી ભડભીડ પ્રાથમિક શાળામાં નવા શૈક્ષણિક સત્ર માટે ધોરણ ૧ થી ૮ માં પ્રવેશ મેળવવા વાલીઓએ શાળા કાર્યાલયનો સંપર્ક કરવો અથવા ફોન કરવો.",
+    "phone": "+91 97242 32366",
+    "active": true
+  },
+  {
+    "id": "notice-evaluations",
+    "titleGu": "વાર્ષિક મૂલ્યાંકન અને એકમ કસોટી સમયપત્રક",
+    "titleEn": "Annual Evaluation & Unit Test Timetable",
+    "date": "2026-03-10",
+    "categoryGu": "પરીક્ષા",
+    "badge": "શૈક્ષણિક",
+    "descriptionGu": "તમામ વિદ્યાર્થીઓ અને વાલીઓ માટે વાર્ષિક મૂલ્યાંકન અને એકમ કસોટીની તારીખો શાળાના નોટિસ બોર્ડ પર ઉપલબ્ધ છે.",
+    "phone": "+91 97242 32366",
+    "active": true
+  },
+  {
+    "id": "notice-pmposhan",
+    "titleGu": "પીએમ પોષણ યોજના (મધ્યાહન ભોજન) નિયમિત વિતરણ",
+    "titleEn": "PM POSHAN Mid-day Meal Regular Schedule",
+    "date": "2026-01-15",
+    "categoryGu": "સુવિધા",
+    "badge": "નિયમિત",
+    "descriptionGu": "શાળામાં અભ્યાસ કરતા દરેક વિદ્યાર્થી માટે દરરોજ ગરમ, તાજું અને પૌષ્ટિક સાત્વિક ભોજન વિનામૂલ્યે આપવામાં આવે છે.",
+    "phone": "+91 97242 32366",
+    "active": true
+  }
+]

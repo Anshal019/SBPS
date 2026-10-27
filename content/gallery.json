@@ -1,0 +1,67 @@
+[
+  {
+    "id": "school-campus",
+    "titleGu": "શાળા ભવન અને સુવ્યવસ્થિત પરિસર",
+    "titleEn": "School Building & Main Campus Courtyard",
+    "category": "સુવિધાઓ",
+    "categoryEn": "facilities",
+    "image": "/assets/images/school-building-front.webp",
+    "thumb": "/assets/images/school-building-front-thumb.webp",
+    "altGu": "શ્રી ભડભીડ પ્રાથમિક શાળાનું સુંદર ભવન અને ત્રિરંગો ધ્વજ",
+    "altEn": "Front view of Shree Bhadbhid Primary School building with Indian flag and neat courtyard",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "morning-prayer",
+    "titleGu": "પ્રભાત પ્રાર્થના અને દૈનિક સંસ્કાર સભા",
+    "titleEn": "Morning Assembly & Daily Prayer",
+    "category": "કાર્યક્રમો",
+    "categoryEn": "events",
+    "image": "/assets/images/prabhat-prarthana-assembly.webp",
+    "thumb": "/assets/images/prabhat-prarthana-assembly-thumb.webp",
+    "altGu": "શ્રી ભડભીડ પ્રાથમિક શાળાના બાળકો પ્રભાત પ્રાર્થનામાં નમ્રતાપૂર્વક જોડાયેલા",
+    "altEn": "Students of Shree Bhadbhid Primary School standing in disciplined rows during morning prayer assembly",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "sports-day",
+    "titleGu": "વાર્ષિક રમતોત્સવ અને દોડ સ્પર્ધા",
+    "titleEn": "Annual Sports Day & Running Race",
+    "category": "રમતગમત",
+    "categoryEn": "sports",
+    "image": "/assets/images/varshik-ramotsav-sports-day.webp",
+    "thumb": "/assets/images/varshik-ramotsav-sports-day-thumb.webp",
+    "altGu": "શ્રી ભડભીડ પ્રાથમિક શાળા વાર્ષિક રમતોત્સવમાં બાળકો દોડ સ્પર્ધામાં ઉત્સાહભેર દોડતા",
+    "altEn": "Primary school students running with joy during Annual Sports Day race",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "smart-classroom",
+    "titleGu": "ડિજિટલ સ્માર્ટ ક્લાસ અને વિજ્ઞાન શિક્ષણ",
+    "titleEn": "Smart Digital Classroom & Science Education",
+    "category": "વર્ગખંડ",
+    "categoryEn": "classroom",
+    "image": "/assets/images/smart-classroom-teaching.webp",
+    "thumb": "/assets/images/smart-classroom-teaching-thumb.webp",
+    "altGu": "શ્રી ભડભીડ પ્રાથમિક શાળાના સ્માર્ટ વર્ગખંડમાં બાળકો અને શિક્ષિકા શૈક્ષણિક પ્રવૃત્તિ કરતાં",
+    "altEn": "Students actively engaged in smart digital classroom with interactive display and dedicated teacher",
+    "width": 1600,
+    "height": 900
+  },
+  {
+    "id": "pm-poshan-meal",
+    "titleGu": "પીએમ પોષણ યોજના - પૌષ્ટિક મધ્યાહન ભોજન",
+    "titleEn": "PM POSHAN - Nutritious Mid-day Meal",
+    "category": "સુવિધાઓ",
+    "categoryEn": "facilities",
+    "image": "/assets/images/pm-poshan-midday-meal.webp",
+    "thumb": "/assets/images/pm-poshan-midday-meal-thumb.webp",
+    "altGu": "શ્રી ભડભીડ પ્રાથમિક શાળામાં બાળકો તાજું અને પૌષ્ટિક મધ્યાહન ભોજન આરોગતા",
+    "altEn": "Students happily enjoying freshly cooked nutritious mid-day meal under PM POSHAN scheme",
+    "width": 1600,
+    "height": 900
+  }
+]

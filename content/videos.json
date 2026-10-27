@@ -1,0 +1,29 @@
+[
+  {
+    "id": "school-intro-video",
+    "titleGu": "શ્રી ભડભીડ પ્રાથમિક શાળા - કેમ્પસ અને શૈક્ષણિક પ્રવૃત્તિઓ દર્શન",
+    "titleEn": "Shree Bhadbhid Primary School - Campus Tour & Activities",
+    "youtubeId": "dQw4w9WgXcQ",
+    "descriptionGu": "શ્રી ભડભીડ પ્રાથમિક શાળા (ભાવનગર) ની શૈક્ષણિક પ્રવૃત્તિઓ, સવારની પ્રાર્થના, રમતગમત અને સ્માર્ટ ક્લાસરૂમની ઝલક. [TODO: શાળાનો વાસ્તવિક યુટ્યુબ વિડીયો ID ઉમેરવો]",
+    "date": "2026-01-10",
+    "isFeatured": true
+  },
+  {
+    "id": "prarthana-sabha-video",
+    "titleGu": "પ્રભાત પ્રાર્થના અને યોગાભ્યાસ પ્રવૃત્તિ",
+    "titleEn": "Morning Assembly & Yoga Session",
+    "youtubeId": "dQw4w9WgXcQ",
+    "descriptionGu": "શાળાના પ્રાંગણમાં દરરોજ સવારે વિદ્યાર્થીઓ દ્વારા ગવાતી સુંદર પ્રાર્થના અને શારીરિક યોગાસનો. [TODO: શાળાનો વાસ્તવિક યુટ્યુબ વિડીયો ID ઉમેરવો]",
+    "date": "2025-12-05",
+    "isFeatured": false
+  },
+  {
+    "id": "sports-day-highlights",
+    "titleGu": "વાર્ષિક રમતોત્સવ અને દેશી રમતો સ્પર્ધા",
+    "titleEn": "Annual Sports Day Highlights & Traditional Games",
+    "youtubeId": "dQw4w9WgXcQ",
+    "descriptionGu": "બાળકોના સર્વાંગી વિકાસ માટે આયોજિત વાર્ષિક રમત મહોત્સવની ઝાંખી. [TODO: શાળાનો વાસ્તવિક યુટ્યુબ વિડીયો ID ઉમેરવો]",
+    "date": "2025-11-20",
+    "isFeatured": false
+  }
+]

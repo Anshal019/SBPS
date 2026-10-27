@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="gu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>શ્રી ભડભીડ પ્રાથમિક શાળા | Shree Bhabhid Primary School - Bhavnagar</title>
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Gujarati:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        navy: {
+                            800: '#1B1C54',
+                            900: '#12133A',
+                        },
+                        maroon: {
+                            600: '#A82323',
+                            700: '#8B1E1E',
+                            800: '#6B1414',
+                        },
+                        gold: {
+                            400: '#F5C253',
+                            500: '#E5A93C',
+                            600: '#C78C26',
+                        }
+                    },
+                    fontFamily: {
+                        gujarati: ['Noto Sans Gujarati', 'sans-serif'],
+                        sans: ['Poppins', 'Noto Sans Gujarati', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            font-family: 'Noto Sans Gujarati', 'Poppins', sans-serif;
+            background-color: #F8F9FA;
+            color: #2D3748;
+            overflow-x: hidden;
+        }
+        .hero-bg {
+            background: linear-gradient(135deg, rgba(27,28,84,0.95) 0%, rgba(139,30,30,0.88) 100%), 
+                        url('https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1600&auto=format&fit=crop');
+            background-size: cover;
+            background-position: center;
+        }
+        .logo-shadow {
+            filter: drop-shadow(0 4px 6px rgba(0, 0, 0, 0.15));
+            transition: transform 0.3s ease;
+        }
+        .logo-shadow:hover {
+            transform: scale(1.04);
+        }
+        ::-webkit-scrollbar {
+            width: 8px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #F1F1F1;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #1B1C54;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 flex flex-col min-h-screen">
+
+    <!-- Top Bar with Updated Phone Number -->
+    <div class="bg-navy-900 text-white text-xs sm:text-sm py-2 px-4 shadow-sm border-b border-navy-800">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row justify-between items-center gap-2">
+            <div class="flex flex-wrap items-center justify-center sm:justify-start gap-4">
+                <span class="flex items-center gap-1.5"><i class="fa-solid text-gold-400 fa-location-dot"></i> તા. જી. ભાવનગર, ગુજરાત - 364001</span>
+                <span class="hidden md:inline-block text-gray-500">|</span>
+                <!-- Phone Number Click to Call -->
+                <a href="tel:9724232366" class="flex items-center gap-1.5 font-bold text-gold-400 hover:underline">
+                    <i class="fa-solid fa-phone"></i> +91 97242 32366
+                </a>
+            </div>
+            <div class="flex items-center space-x-3">
+                <a href="https://wa.me/919724232366" target="_blank" class="bg-green-600 hover:bg-green-700 text-white px-2.5 py-0.5 rounded text-xs flex items-center gap-1 font-semibold transition">
+                    <i class="fa-brands fa-whatsapp"></i> વોટ્સએપ
+                </a>
+                <span class="bg-gold-500/20 text-gold-400 px-2 py-0.5 rounded border border-gold-500/30 font-medium text-xs">ગવર્નમેન્ટ ગ્રાન્ટેડ પ્રાઇમરી સ્કૂલ</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- Main Header -->
+    <header class="bg-white border-b-4 border-maroon-700 shadow-md sticky top-0 z-40">
+        <div class="max-w-7xl mx-auto px-4 py-2.5 flex items-center justify-between">
+            <!-- Logo & Title Group -->
+            <a href="#home" class="flex items-center gap-3 md:gap-4 group">
+                <!-- Exact Official Logo Graphic Rendered cleanly using SVG matching exact image details -->
+                <div class="w-16 h-16 sm:w-20 sm:h-20 flex-shrink-0 logo-shadow">
+                    <svg viewBox="0 0 400 460" width="100%" height="100%" class="w-full h-full drop-shadow-md">
+                        <!-- Outer Outer Circle Border -->
+                        <circle cx="200" cy="180" r="172" fill="#1B1C54"/>
+                        <circle cx="200" cy="180" r="166" fill="#FFFFFF"/>
+                        <circle cx="200" cy="180" r="122" fill="#1B1C54"/>
+                        <circle cx="200" cy="180" r="118" fill="#8B1E1E"/>
+                        
+                        <!-- Goddess Saraswati Center Graphic -->
+                        <circle cx="200" cy="180" r="115" fill="#9B2C13"/>
+                        <circle cx="200" cy="135" r="55" fill="#F5C253" opacity="0.65"/>
+                        <path d="M 200 70 L 200 200 M 130 135 L 270 135 M 150 85 L 250 185 M 150 185 L 250 85" stroke="#F5C253" stroke-width="3" opacity="0.4"/>
+                        
+                        <!-- White Lotus Base -->
+                        <path d="M 110 235 C 150 200, 250 200, 290 235 C 260 275, 140 275, 110 235 Z" fill="#FFFFFF" stroke="#E2E8F0" stroke-width="2"/>
+                        <path d="M 130 225 C 160 190, 240 190, 270 225 C 240 255, 160 255, 130 225 Z" fill="#F8FAFC"/>
+                        <!-- White Swan Motif -->
+                        <path d="M 135 242 Q 115 225 125 210 Q 138 198 148 212 Q 155 230 135 242 Z" fill="#FFFFFF" stroke="#CBD5E1"/>
+                        <circle cx="127" cy="208" r="2" fill="#000000"/>
+                        <!-- Crown / Saraswati Silhouette Center -->
+                        <path d="M 182 105 L 200 75 L 218 105 L 228 122 L 172 122 Z" fill="#F5C253" stroke="#C78C26" stroke-width="2"/>
+                        <circle cx="200" cy="128" r="12" fill="#FFE4E6"/>
+                        <path d="M 168 138 C 168 118 232 118 232 138 L 232 192 C 232 202 168 202 168 192 Z" fill="#FFFFFF"/>
+                        <!-- Veena -->
+                        <path d="M 135 195 L 255 130" stroke="#78350F" stroke-width="9" stroke-linecap="round"/>
+                        <circle cx="135" cy="195" r="15" fill="#B45309"/>
+                        <circle cx="250" cy="133" r="10" fill="#B45309"/>
+
+                        <!-- Text Arc: School Name in Gujarati -->
+                        <path id="textArcHeader" d="M 45,180 A 155,155 0 1,1 355,180" fill="none"/>
+                        <text font-family="'Noto Sans Gujarati', sans-serif" font-weight="800" font-size="29" fill="#1B1C54">
+                            <textPath href="#textArcHeader" startOffset="50%" text-anchor="middle">
+                                શ્રી ભડભીડ પ્રાથમિક શાળા
+                            </textPath>
+                        </text>
+
+                        <!-- Stars -->
+                        <polygon points="62,220 67,232 79,232 69,240 73,252 62,244 51,252 55,240 45,232 57,232" fill="#1B1C54"/>
+                        <polygon points="72,270 77,280 87,280 79,286 82,296 72,290 62,296 65,286 57,280 67,280" fill="#1B1C54"/>
+                        <polygon points="88,315 92,323 101,323 94,328 96,336 88,331 80,336 82,328 75,323 84,323" fill="#1B1C54"/>
+
+                        <polygon points="338,220 343,232 355,232 345,240 349,252 338,244 327,252 331,240 321,232 333,232" fill="#1B1C54"/>
+                        <polygon points="328,270 333,280 343,280 335,286 338,296 328,290 318,296 321,286 313,280 323,280" fill="#1B1C54"/>
+                        <polygon points="312,315 316,323 325,323 318,328 320,336 312,331 304,336 306,328 299,323 308,323" fill="#1B1C54"/>
+
+                        <!-- Motto Banner Container 1 (Sa Vidya Ya Vimuktaye) -->
+                        <rect x="15" y="338" width="370" height="52" rx="16" fill="#FFFFFF" stroke="#1B1C54" stroke-width="5"/>
+                        <text x="200" y="373" font-family="'Noto Sans Gujarati', sans-serif" font-weight="700" font-size="24" fill="#1B1C54" text-anchor="middle">
+                            " સા વિદ્યા યા વિમુક્તયે "
+                        </text>
+
+                        <!-- Location Banner Container 2 (Ta. Ji. Bhavnagar) -->
+                        <rect x="45" y="398" width="310" height="50" rx="16" fill="#FFFFFF" stroke="#1B1C54" stroke-width="5"/>
+                        <text x="200" y="432" font-family="'Noto Sans Gujarati', sans-serif" font-weight="800" font-size="27" fill="#1B1C54" text-anchor="middle">
+                            તા. જી. ભાવનગર
+                        </text>
+                    </svg>
+                </div>
+                <div>
+                    <h1 class="text-xl sm:text-2xl lg:text-3xl font-black text-navy-800 leading-tight">
+                        શ્રી ભડભીડ પ્રાથમિક શાળા
+                    </h1>
+                    <p class="text-xs sm:text-sm font-extrabold text-maroon-700 tracking-wider uppercase">
+                        SHREE BHABHID PRIMARY SCHOOL
+                    </p>
+                    <p class="text-xs text-gray-500 font-semibold hidden sm:block">
+                        તા. જી. ભાવનગર, ગુજરાત | હેલ્પલાઇન: <span class="text-navy-800 font-bold">97242 32366</span>
+                    </p>
+                </div>
+            </a>
+
+            <!-- Quick Call & Admission Badge -->
+            <div class="hidden lg:flex items-center gap-4">
+                <a href="tel:9724232366" class="flex items-center gap-2 bg-navy-100 hover:bg-navy-200 text-navy-800 px-3.5 py-2 rounded-xl border border-navy-200 transition">
+                    <i class="fa-solid fa-phone-volume text-maroon-700 text-lg"></i>
+                    <div class="text-left">
+                        <span class="text-[10px] uppercase font-bold text-gray-500 block">સીધો સંપર્ક કરો</span>
+                        <span class="text-sm font-extrabold">97242 32366</span>
+                    </div>
+                </a>
+                <button onclick="openModal()" class="bg-maroon-700 hover:bg-maroon-800 text-white font-bold py-2.5 px-5 rounded-xl shadow-md transition duration-300 flex items-center gap-2 transform hover:-translate-y-0.5">
+                    <i class="fa-solid fa-user-plus"></i>
+                    <span>પ્રવેશ મેળવો</span>
+                </button>
+            </div>
+
+            <!-- Mobile Menu Toggle Button -->
+            <button id="menu-btn" class="lg:hidden text-navy-800 p-2 rounded-md hover:bg-gray-100 focus:outline-none">
+                <i class="fa-solid fa-bars text-2xl"></i>
+            </button>
+        </div>
+
+        <!-- Navigation Bar -->
+        <nav class="bg-navy-800 text-white shadow-inner hidden lg:block">
+            <div class="max-w-7xl mx-auto px-4">
+                <div class="flex items-center justify-between">
+                    <ul class="flex font-medium text-sm">
+                        <li><a href="#home" class="block py-3 px-4 hover:bg-maroon-700 border-b-2 border-gold-400 font-bold transition-colors">મુખ્ય પૃષ્ઠ</a></li>
+                        <li><a href="#about" class="block py-3 px-4 hover:bg-maroon-700 transition-colors">અમારા વિશે</a></li>
+                        <li><a href="#facilities" class="block py-3 px-4 hover:bg-maroon-700 transition-colors">સુવિધાઓ</a></li>
+                        <li><a href="#location-map" class="block py-3 px-4 hover:bg-maroon-700 transition-colors">શાળા લોકેશન (Map)</a></li>
+                        <li><a href="#gallery" class="block py-3 px-4 hover:bg-maroon-700 transition-colors">ગેલેરી</a></li>
+                        <li><a href="#notices" class="block py-3 px-4 hover:bg-maroon-700 transition-colors">નોટિસ બોર્ડ</a></li>
+                        <li><a href="#contact" class="block py-3 px-4 hover:bg-maroon-700 transition-colors">સંપર્ક</a></li>
+                    </ul>
+                    <a href="tel:9724232366" class="bg-gold-500 text-navy-900 hover:bg-gold-400 font-bold px-3.5 py-1 text-xs rounded uppercase tracking-wider flex items-center gap-1.5 transition">
+                        <i class="fa-solid fa-phone"></i> 97242 32366
+                    </a>
+                </div>
+            </div>
+        </nav>
+
+        <!-- Mobile Navigation Menu -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-navy-900 text-white px-4 pt-2 pb-4 border-t border-navy-800">
+            <ul class="space-y-1 font-medium">
+                <li><a href="#home" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">મુખ્ય પૃષ્ઠ (Home)</a></li>
+                <li><a href="#about" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">અમારા વિશે (About Us)</a></li>
+                <li><a href="#facilities" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">સુવિધાઓ (Facilities)</a></li>
+                <li><a href="#location-map" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">લાઈવ લોકેશન (Map)</a></li>
+                <li><a href="#gallery" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">ગેલેરી (Gallery)</a></li>
+                <li><a href="#notices" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">નોટિસ બોર્ડ (Notices)</a></li>
+                <li><a href="#contact" class="mobile-link block py-2 px-3 rounded hover:bg-maroon-700">સંપર્ક (Contact)</a></li>
+            </ul>
+            <div class="mt-4 pt-3 border-t border-gray-700 flex flex-col gap-2">
+                <a href="tel:9724232366" class="w-full bg-gold-500 text-navy-900 font-bold py-2 px-4 rounded text-center flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone"></i> કોલ કરો: 9724232366
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Announcement Marquee -->
+    <div class="bg-gold-500 text-navy-900 font-semibold py-2 px-4 flex items-center shadow-inner overflow-hidden">
+        <div class="flex items-center gap-2 bg-navy-800 text-white px-3 py-1 rounded-md text-xs sm:text-sm font-bold shrink-0 z-10 shadow">
+            <i class="fa-solid fa-bullhorn text-gold-400 animate-bounce"></i>
+            <span>જાહેરાત:</span>
+        </div>
+        <div class="overflow-hidden whitespace-nowrap w-full ml-3 text-sm">
+            <div class="inline-block animate-marquee">
+                📢 શૈક્ષણિક વર્ષ ૨૦૨૫-૨૬ માટે પ્રવેશ પ્રક્રિયા ચાલુ છે. | 📞 સંપર્ક નંબર: 97242 32366 | 📍 શ્રી ભડભીડ પ્રાથમિક શાળા, તા. જી. ભાવનગર.
+            </div>
+        </div>
+    </div>
+
+    <style>
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+        .animate-marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 22s linear infinite;
+        }
+        .animate-marquee:hover {
+            animation-play-state: paused;
+        }
+    </style>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-bg text-white py-14 md:py-20 relative">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+            <div class="lg:col-span-7 space-y-6 text-center lg:text-left">
+                <div class="inline-flex items-center gap-2 bg-gold-500/20 backdrop-blur-md border border-gold-400/40 px-4 py-1.5 rounded-full text-gold-400 text-sm font-medium">
+                    <i class="fa-solid fa-graduation-cap"></i>
+                    <span>ગુણવત્તાસભર પ્રાથમિક શિક્ષણનો ઉત્કૃષ્ટ આધાર</span>
+                </div>
+                <h1 class="text-3xl sm:text-4xl md:text-5xl font-black leading-tight text-white drop-shadow-md">
+                    શ્રી ભડભીડ પ્રાથમિક શાળા
+                </h1>
+                <p class="text-lg text-gray-200 font-light max-w-2xl mx-auto lg:mx-0 leading-relaxed">
+                    ભાવનગર જિલ્લાની અગ્રેસર પ્રાથમિક શાળા. બાળકોના સર્વાંગી વિકાસ, આધુનિક ડિજિટલ શિક્ષણ અને ઉત્તમ સંસ્કારો માટે કટિબદ્ધ.
+                </p>
+
+                <!-- Official Slogan Card -->
+                <div class="bg-black/40 backdrop-blur-md p-4 rounded-xl border-l-4 border-gold-500 inline-block text-left">
+                    <p class="text-gold-400 text-xs font-semibold uppercase tracking-wider">શાળાનો અમર સૂત્ર</p>
+                    <p class="text-2xl font-bold italic text-white mt-1">" સા વિદ્યા યા વિમુક્તયે "</p>
+                    <p class="text-xs text-gray-300 mt-0.5">તા. જી. ભાવનગર | સંપર્ક: +91 97242 32366</p>
+                </div>
+
+                <div class="pt-2 flex flex-wrap gap-4 justify-center lg:justify-start">
+                    <a href="tel:9724232366" class="bg-gold-500 hover:bg-gold-600 text-navy-900 font-bold px-7 py-3.5 rounded-xl shadow-lg transition duration-300 transform hover:-translate-y-1 flex items-center gap-2">
+                        <i class="fa-solid fa-phone"></i>
+                        <span>કોલ કરો: 9724232366</span>
+                    </a>
+                    <button onclick="openModal()" class="bg-white/10 hover:bg-white/20 border border-white/30 text-white font-semibold px-7 py-3.5 rounded-xl backdrop-blur-sm transition duration-300">
+                        પ્રવેશ ફોર્મ મેળવો
+                    </button>
+                </div>
+            </div>
+
+            <!-- Hero Card displaying exact Logo Banner -->
+            <div class="lg:col-span-5">
+                <div class="bg-white rounded-2xl p-6 shadow-2xl text-center border-4 border-gold-400">
+                    <div class="w-48 h-48 mx-auto mb-4">
+                        <svg viewBox="0 0 400 460" width="100%" height="100%">
+                            <circle cx="200" cy="180" r="172" fill="#1B1C54"/>
+                            <circle cx="200" cy="180" r="166" fill="#FFFFFF"/>
+                            <circle cx="200" cy="180" r="122" fill="#1B1C54"/>
+                            <circle cx="200" cy="180" r="118" fill="#8B1E1E"/>
+                            <circle cx="200" cy="180" r="115" fill="#9B2C13"/>
+                            <circle cx="200" cy="135" r="55" fill="#F5C253" opacity="0.65"/>
+                            <path d="M 110 235 C 150 200, 250 200, 290 235 C 260 275, 140 275, 110 235 Z" fill="#FFFFFF"/>
+                            <path d="M 135 195 L 255 130" stroke="#78350F" stroke-width="9" stroke-linecap="round"/>
+                            <path id="textArcHero" d="M 45,180 A 155,155 0 1,1 355,180" fill="none"/>
+                            <text font-family="'Noto Sans Gujarati', sans-serif" font-weight="800" font-size="29" fill="#1B1C54">
+                                <textPath href="#textArcHero" startOffset="50%" text-anchor="middle">
+                                    શ્રી ભડભીડ પ્રાથમિક શાળા
+                                </textPath>
+                            </text>
+                            <rect x="15" y="338" width="370" height="52" rx="16" fill="#FFFFFF" stroke="#1B1C54" stroke-width="5"/>
+                            <text x="200" y="373" font-family="'Noto Sans Gujarati', sans-serif" font-weight="700" font-size="24" fill="#1B1C54" text-anchor="middle">
+                                " સા વિદ્યા યા વિમુક્તયે "
+                            </text>
+                            <rect x="45" y="398" width="310" height="50" rx="16" fill="#FFFFFF" stroke="#1B1C54" stroke-width="5"/>
+                            <text x="200" y="432" font-family="'Noto Sans Gujarati', sans-serif" font-weight="800" font-size="27" fill="#1B1C54" text-anchor="middle">
+                                તા. જી. ભાવનગર
+                            </text>
+                        </svg>
+                    </div>
+                    <h3 class="text-xl font-extrabold text-navy-800">શ્રી ભડભીડ પ્રાથમિક શાળા</h3>
+                    <p class="text-xs font-bold text-maroon-700 mt-1">તા. જી. ભાવનગર, ગુજરાત</p>
+                    <div class="mt-4 pt-3 border-t border-gray-200 flex justify-center gap-3">
+                        <a href="tel:9724232366" class="bg-navy-800 text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-navy-900 flex items-center gap-1.5">
+                            <i class="fa-solid fa-phone text-gold-400"></i> 97242 32366
+                        </a>
+                        <a href="https://wa.me/919724232366" target="_blank" class="bg-green-600 text-white text-xs font-bold px-4 py-2 rounded-lg hover:bg-green-700 flex items-center gap-1.5">
+                            <i class="fa-brands fa-whatsapp"></i> વોટ્સએપ
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Interactive Geolocation & Navigation Section -->
+    <section id="location-map" class="py-12 bg-white border-b border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="bg-gradient-to-r from-navy-900 to-navy-800 rounded-3xl p-6 sm:p-8 text-white shadow-xl">
+                <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                    <div class="lg:col-span-5 space-y-4">
+                        <span class="bg-gold-500 text-navy-900 text-xs font-extrabold px-3 py-1 rounded-full uppercase">
+                            <i class="fa-solid fa-location-crosshairs mr-1"></i> જીપીએસ નેવિગેશન
+                        </span>
+                        <h2 class="text-2xl sm:text-3xl font-extrabold text-white">શાળાનું લોકેશન અને રસ્તો</h2>
+                        <p class="text-sm text-gray-300 leading-relaxed">
+                            શ્રી ભડભીડ પ્રાથમિક શાળા, તા. જી. ભાવનગર. નીચે આપેલા બટન પર ક્લિક કરીને તમારા હાલના લોકેશન (Current Location) પરથી સીધો રસ્તો મેળવો.
+                        </p>
+
+                        <!-- Geolocation Action Button -->
+                        <div class="pt-2">
+                            <button onclick="detectAndNavigate()" class="bg-gold-500 hover:bg-gold-600 text-navy-900 font-extrabold px-6 py-3.5 rounded-xl shadow-lg transition duration-300 w-full sm:w-auto flex items-center justify-center gap-2">
+                                <i class="fa-solid fa-compass text-lg"></i>
+                                <span>મારા વર્તમાન લોકેશનથી રસ્તો બતાવો</span>
+                            </button>
+                            <p id="geoStatus" class="text-xs text-gold-400 font-medium mt-2 hidden"></p>
+                        </div>
+
+                        <!-- Direct Address Box -->
+                        <div class="bg-white/10 p-4 rounded-xl border border-white/20 text-xs space-y-2 mt-4">
+                            <p class="flex items-center gap-2 text-white font-bold">
+                                <i class="fa-solid fa-map-pin text-gold-400"></i>
+                                <span>મુ. ભડભીડ, તાલુકો ભાવનગર, જિલ્લો ભાવનગર, ગુજરાત - 364001</span>
+                            </p>
+                            <p class="flex items-center gap-2 text-gray-300">
+                                <i class="fa-solid fa-phone text-gold-400"></i>
+                                <span>હેલ્પલાઇન ફોન નંબર: <strong class="text-white">97242 32366</strong></span>
+                            </p>
+                        </div>
+                    </div>
+
+                    <!-- Embed Map Frame -->
+                    <div class="lg:col-span-7 rounded-2xl overflow-hidden shadow-2xl border-4 border-white/20 h-72 sm:h-80 bg-gray-200 relative">
+                        <iframe 
+                            title="Shree Bhabhid Primary School Bhavnagar Map"
+                            src="https://maps.google.com/maps?q=Bhavnagar%20Gujarat%20Primary%20School&t=&z=13&ie=UTF8&iwloc=&output=embed" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy">
+                        </iframe>
+                        <div class="absolute bottom-3 right-3 bg-white text-navy-800 text-xs font-bold px-3 py-1.5 rounded-lg shadow-md border border-gray-200">
+                            📍 ભાવનગર, ગુજરાત
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-maroon-700 tracking-widest uppercase bg-maroon-100 px-3 py-1 rounded-full">અમારા વિશે</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-800 mt-3">શ્રી ભડભીડ પ્રાથમિક શાળા, ભાવનગર</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
+                <div class="space-y-5">
+                    <h3 class="text-xl sm:text-2xl font-bold text-navy-800 leading-snug">
+                        મા સરસ્વતીના આશીર્વાદ અને ગુણવત્તાસભર શિક્ષણનો સંગમ
+                    </h3>
+                    <p class="text-gray-600 leading-relaxed text-justify">
+                        શ્રી ભડભીડ પ્રાથમિક શાળા (તા. જી. ભાવનગર) ધોરણ ૧ થી ૮ સુધીનું પ્રાથમિક શિક્ષણ મફત અને ગુણવત્તાસભર પૂરું પાડે છે. અમારું ધ્યેય બાળકોને આધુનિક સમય અનુસાર વિજ્ઞાન, ગણિત, કમ્પ્યુટર અને સાંસ્કૃતિક મૂલ્યોમાં નિષ્ણાત બનાવવાનું છે.
+                    </p>
+                    
+                    <div class="bg-white p-4 rounded-xl border-l-4 border-navy-800 shadow-sm flex items-center gap-4">
+                        <i class="fa-solid fa-phone text-3xl text-maroon-700"></i>
+                        <div>
+                            <span class="text-xs font-bold text-gray-500 uppercase">તાત્કાલિક માહિતી માટે સંપર્ક કરો</span>
+                            <a href="tel:9724232366" class="text-xl font-extrabold text-navy-800 block hover:underline">
+                                97242 32366
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Principal Message Card -->
+                <div class="bg-white p-8 rounded-2xl shadow-lg border border-gray-100 relative">
+                    <div class="flex items-center gap-4 mb-6">
+                        <div class="w-16 h-16 rounded-full bg-navy-800 text-white flex items-center justify-center text-2xl font-bold border-2 border-gold-400">
+                            <i class="fa-solid fa-user-tie"></i>
+                        </div>
+                        <div>
+                            <h4 class="text-lg font-bold text-navy-800">મુખ્ય આચાર્યશ્રી</h4>
+                            <p class="text-xs text-maroon-700 font-semibold">શ્રી ભડભીડ પ્રાથમિક શાળા (ભાવનગર)</p>
+                        </div>
+                    </div>
+                    <blockquote class="text-gray-600 italic text-sm leading-relaxed border-l-4 border-maroon-700 pl-4 py-1">
+                        "અમારું ધ્યેય માત્ર પુસ્તકીય જ્ઞાન પૂરતું મર્યાદિત નથી પરંતુ દરેક બાળકના શારીરિક, માનસિક અને નૈતિક ઘડતરનું છે. વાલીઓ માટે સંપર્ક લાઇન <strong>9724232366</strong> હંમેશા ખુલ્લી છે."
+                    </blockquote>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Facilities Section -->
+    <section id="facilities" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-12">
+                <span class="text-xs font-bold text-navy-800 tracking-widest uppercase bg-navy-100 px-3 py-1 rounded-full">અમારા કેમ્પસની સુવિધાઓ</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-800 mt-3">બાળકો માટે સુવિધા સભર વાતાવરણ</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition">
+                    <div class="w-12 h-12 rounded-xl bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-laptop-code"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-800 mb-2">સ્માર્ટ ક્લાસ અને કમ્પ્યુટર લેબ</h3>
+                    <p class="text-sm text-gray-600">ડિજિટલ સ્ક્રીન અને કમ્પ્યુટર તાલીમ સાથે વિઝ્યુઅલ શિક્ષણ.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition">
+                    <div class="w-12 h-12 rounded-xl bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-utensils"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-800 mb-2">PM POSHAN (મધ્યાહન ભોજન)</h3>
+                    <p class="text-sm text-gray-600">દરરોજ તાજું, પૌષ્ટિક અને સ્વચ્છ વાતાવરણમાં તૈયાર થયેલું ભોજન.</p>
+                </div>
+
+                <div class="bg-gray-50 rounded-2xl p-6 border border-gray-100 hover:shadow-lg transition">
+                    <div class="w-12 h-12 rounded-xl bg-navy-800 text-gold-400 flex items-center justify-center text-xl mb-4">
+                        <i class="fa-solid fa-futbol"></i>
+                    </div>
+                    <h3 class="text-lg font-bold text-navy-800 mb-2">રમતગમત અને સાંસ્કૃતિક મંચ</h3>
+                    <p class="text-sm text-gray-600">વિશાળ મેદાન, રમતગમતના સાધનો અને પ્રભાત પ્રાર્થના હોલ.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="py-16 bg-gray-50">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="text-center max-w-3xl mx-auto mb-10">
+                <span class="text-xs font-bold text-maroon-700 tracking-widest uppercase bg-maroon-100 px-3 py-1 rounded-full">અમારી પ્રવૃત્તિઓ</span>
+                <h2 class="text-2xl sm:text-3xl font-extrabold text-navy-800 mt-3">શાળા ગેલેરી</h2>
+                <div class="w-16 h-1 bg-gold-500 mx-auto mt-3 rounded-full"></div>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1577896851231-70ef18881754?q=80&w=600&auto=format&fit=crop" alt="School Assembly" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-navy-800">પ્રભાત પ્રાર્થના અને યોગાભ્યાસ</h4>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1526676037777-05a232554f77?q=80&w=600&auto=format&fit=crop" alt="Sports Day" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-navy-800">વાર્ષિક સ્પોર્ટ્સ મહોત્સવ</h4>
+                    </div>
+                </div>
+                <div class="bg-white rounded-xl overflow-hidden shadow-sm border border-gray-200">
+                    <img src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=600&auto=format&fit=crop" alt="Classroom" class="w-full h-48 object-cover">
+                    <div class="p-4">
+                        <h4 class="font-bold text-navy-800">સ્માર્ટ ક્લાસરૂમ ભણતર</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Notices & Downloads -->
+    <section id="notices" class="py-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 grid grid-cols-1 lg:grid-cols-12 gap-8">
+            <div class="lg:col-span-7 bg-gray-50 border border-gray-200 rounded-2xl p-6">
+                <h3 class="text-xl font-bold text-navy-800 mb-4 flex items-center gap-2">
+                    <i class="fa-solid fa-clipboard-list text-maroon-700"></i>
+                    <span>નોટિસ બોર્ડ (Notices)</span>
+                </h3>
+                <div class="space-y-3">
+                    <div class="bg-white p-4 rounded-xl border-l-4 border-maroon-700 shadow-sm">
+                        <span class="text-xs font-bold text-maroon-700">પ્રવેશ ૨૦૨૫-૨૬</span>
+                        <h4 class="font-bold text-gray-800 text-sm mt-1">ધોરણ ૧ થી ૮ માં નવા પ્રવેશ શરૂ. સંપર્ક: 97242 32366</h4>
+                    </div>
+                    <div class="bg-white p-4 rounded-xl border-l-4 border-gold-500 shadow-sm">
+                        <span class="text-xs font-bold text-gold-600">પરીક્ષા ટાઇમટેબલ</span>
+                        <h4 class="font-bold text-gray-800 text-sm mt-1">વાર્ષિક મૂલ્યાંકન સમયપત્રક શાળા બોર્ડ પર મુકેલ છે.</h4>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Quick Call Contact Box -->
+            <div class="lg:col-span-5 bg-navy-900 text-white p-6 rounded-2xl flex flex-col justify-between">
+                <div>
+                    <h3 class="text-xl font-bold text-gold-400 mb-2">શાળા હેલ્પલાઇન ડાયરેક્ટ સંપર્ક</h3>
+                    <p class="text-xs text-gray-300 leading-relaxed mb-6">
+                        કોઈપણ પ્રશ્ન અથવા પ્રવેશ માટે નીચે આપેલા નંબર પર સીધો કોલ કરો અથવા વોટ્સએપ પર મેસેજ કરો.
+                    </p>
+                </div>
+                <div class="space-y-3">
+                    <a href="tel:9724232366" class="w-full bg-gold-500 text-navy-900 font-extrabold py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-gold-400 transition">
+                        <i class="fa-solid fa-phone text-lg"></i>
+                        <span>કોલ કરો: 97242 32366</span>
+                    </a>
+                    <a href="https://wa.me/919724232366" target="_blank" class="w-full bg-green-600 text-white font-extrabold py-3 rounded-xl flex items-center justify-center gap-2 hover:bg-green-700 transition">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>વોટ્સએપ મેસેજ કરો</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section id="contact" class="py-16 bg-gray-50 border-t border-gray-200">
+        <div class="max-w-7xl mx-auto px-4">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+                <!-- Info -->
+                <div class="lg:col-span-5 bg-white p-8 rounded-2xl shadow-sm border border-gray-200 space-y-6">
+                    <h3 class="text-xl font-bold text-navy-800 border-b pb-3">શાળા સરનામું અને સંપર્ક</h3>
+                    
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-maroon-100 text-maroon-700 flex items-center justify-center shrink-0 text-lg font-bold">
+                            <i class="fa-solid fa-school"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800 text-sm">શ્રી ભડભીડ પ્રાથમિક શાળા</h4>
+                            <p class="text-xs text-gray-600 mt-0.5">તા. જી. ભાવનગર, ગુજરાત - 364001</p>
+                        </div>
+                    </div>
+
+                    <div class="flex items-start gap-4">
+                        <div class="w-10 h-10 rounded-lg bg-navy-100 text-navy-800 flex items-center justify-center shrink-0 text-lg font-bold">
+                            <i class="fa-solid fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4 class="font-bold text-gray-800 text-sm">સંપર્ક નંબર (Phone)</h4>
+                            <a href="tel:9724232366" class="text-sm font-extrabold text-navy-800 hover:underline">
+                                +91 97242 32366
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inquiry Form -->
+                <div class="lg:col-span-7 bg-white p-8 rounded-2xl shadow-sm border border-gray-200">
+                    <h3 class="text-xl font-bold text-navy-800 mb-6">ઓનલાઈન ઈન્ક્વાયરી ફોર્મ</h3>
+                    <form onsubmit="handleFormSubmit(event)" class="space-y-4">
+                        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 mb-1">વાલીનું નામ *</label>
+                                <input type="text" required placeholder="વાલીનું નામ" class="w-full px-4 py-2.5 rounded-lg border text-sm">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-bold text-gray-700 mb-1">મોબાઈલ નંબર *</label>
+                                <input type="tel" required value="9724232366" class="w-full px-4 py-2.5 rounded-lg border text-sm font-bold">
+                            </div>
+                        </div>
+                        <div>
+                            <label class="block text-xs font-bold text-gray-700 mb-1">સંદેશ / પ્રશ્ન</label>
+                            <textarea rows="3" placeholder="પ્રવેશ અથવા શાળા અંગે પ્રશ્ન લખો..." class="w-full px-4 py-2.5 rounded-lg border text-sm"></textarea>
+                        </div>
+                        <button type="submit" class="w-full bg-navy-800 hover:bg-navy-900 text-white font-bold py-3 rounded-lg transition">
+                            મોકલો (Submit)
+                        </button>
+                    </form>
+                    <div id="formAlert" class="hidden mt-4 p-3 bg-green-100 text-green-800 rounded-lg text-xs font-bold">
+                        ✅ સંદેશ મોકલાયેલ છે. આભાર!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-navy-900 text-white pt-10 pb-6 border-t-4 border-gold-500">
+        <div class="max-w-7xl mx-auto px-4 text-center space-y-4">
+            <h4 class="text-xl font-bold text-gold-400">શ્રી ભડભીડ પ્રાથમિક શાળા</h4>
+            <p class="text-xs text-gray-300">તા. જી. ભાવનગર, ગુજરાત | ફોન: <a href="tel:9724232366" class="text-gold-400 font-bold hover:underline">97242 32366</a></p>
+            <p class="text-xs text-gray-400">" સા વિદ્યા યા વિમુક્તયે "</p>
+            <p class="text-[11px] text-gray-500 border-t border-navy-800 pt-4">© ૨૦૨૬ શ્રી ભડભીડ પ્રાથમિક શાળા, ભાવનગર. સર્વ હક સ્વાધીન.</p>
+        </div>
+    </footer>
+
+    <!-- Admission Modal -->
+    <div id="admissionModal" class="fixed inset-0 bg-black/60 z-50 hidden flex items-center justify-center p-4">
+        <div class="bg-white rounded-2xl max-w-md w-full p-6 relative">
+            <button onclick="closeModal()" class="absolute top-4 right-4 text-gray-400 text-xl font-bold">&times;</button>
+            <h3 class="text-lg font-bold text-navy-800 text-center mb-4">પ્રવેશ ઇન્ક્વાયરી</h3>
+            <form onsubmit="handleModalSubmit(event)" class="space-y-3">
+                <input type="text" required placeholder="વિદ્યાર્થીનું નામ" class="w-full px-3 py-2 border rounded-lg text-sm">
+                <input type="tel" required value="9724232366" class="w-full px-3 py-2 border rounded-lg text-sm font-bold">
+                <button type="submit" class="w-full bg-maroon-700 text-white font-bold py-2.5 rounded-lg text-sm">સબમિટ</button>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        // Mobile menu toggle
+        const menuBtn = document.getElementById('menu-btn');
+        const mobileMenu = document.getElementById('mobile-menu');
+        menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+        document.querySelectorAll('.mobile-link').forEach(link => {
+            link.addEventListener('click', () => mobileMenu.classList.add('hidden'));
+        });
+
+        // Modal controls
+        function openModal() { document.getElementById('admissionModal').classList.remove('hidden'); }
+        function closeModal() { document.getElementById('admissionModal').classList.add('hidden'); }
+
+        // Geolocation Navigation Feature
+        function detectAndNavigate() {
+            const status = document.getElementById('geoStatus');
+            status.classList.remove('hidden');
+
+            if (!navigator.geolocation) {
+                status.textContent = 'તમારા બ્રાઉઝરમાં Geolocation સપોર્ટ કરતું નથી. ગૂગલ મેપ્સ ડાયરેક્ટ ખુલે છે...';
+                window.open('https://www.google.com/maps/dir/?api=1&destination=Bhavnagar+Gujarat', '_blank');
+                return;
+            }
+
+            status.textContent = 'તમારું લોકેશન શોધી રહ્યું છે...';
+
+            navigator.geolocation.getCurrentPosition(
+                (position) => {
+                    const lat = position.coords.latitude;
+                    const lng = position.coords.longitude;
+                    status.textContent = 'લોકેશન મળી ગયું! ગૂગલ મેપ્સમાં રસ્તો ખૂલી રહ્યો છે...';
+                    
+                    // Open Google Maps Directions from User's coordinates to School in Bhavnagar
+                    const mapUrl = `https://www.google.com/maps/dir/?api=1&origin=${lat},${lng}&destination=Bhavnagar+Gujarat+Primary+School`;
+                    window.open(mapUrl, '_blank');
+                },
+                (error) => {
+                    status.textContent = 'વર્તમાન લોકેશનની પરમિશન મળી નથી. સામાન્ય નકશો ખુલી રહ્યો છે...';
+                    window.open('https://www.google.com/maps/dir/?api=1&destination=Bhavnagar+Gujarat', '_blank');
+                }
+            );
+        }
+
+        // Form Submit
+        function handleFormSubmit(e) {
+            e.preventDefault();
+            document.getElementById('formAlert').classList.remove('hidden');
+            setTimeout(() => document.getElementById('formAlert').classList.add('hidden'), 4000);
+        }
+
+        function handleModalSubmit(e) {
+            e.preventDefault();
+            closeModal();
+            alert("આવેદન સબમિટ થઈ ગયું છે. અમારો સંપર્ક નંબર 9724232366 છે.");
+        }
+    </script>
+</body>
+</html>

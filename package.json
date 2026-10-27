@@ -1,0 +1,21 @@
+{
+  "name": "shree-bhadbhid-primary-school",
+  "version": "1.0.0",
+  "description": "શ્રી ભડભીડ પ્રાથમિક શાળા - Official Website (Bhavnagar, Gujarat)",
+  "main": "build.js",
+  "scripts": {
+    "build": "node build.js",
+    "start": "npx serve ."
+  },
+  "keywords": [
+    "shree bhadbhid primary school",
+    "bhavnagar",
+    "primary school",
+    "gujarat"
+  ],
+  "author": "Shree Bhadbhid Primary School",
+  "license": "ISC",
+  "devDependencies": {
+    "sharp": "^0.35.5"
+  }
+}

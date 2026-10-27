@@ -1,0 +1,42 @@
+{
+  "schoolNameGu": "શ્રી ભડભીડ પ્રાથમિક શાળા",
+  "schoolNameEn": "Shree Bhadbhid Primary School",
+  "schoolNameEnAlt": "Shree Bhabhid Primary School",
+  "motto": "સા વિદ્યા યા વિમુક્તયે",
+  "schoolTypeGu": "સરકારી ગ્રાન્ટેડ પ્રાથમિક શાળા",
+  "schoolTypeEn": "Government Granted Primary School",
+  "gradesGu": "ધોરણ ૧ થી ૮",
+  "gradesEn": "Grades 1 to 8",
+  "address": {
+    "village": "મુ. ભડભીડ",
+    "taluka": "તા. ભાવનગર",
+    "district": "જિ. ભાવનગર",
+    "state": "ગુજરાત",
+    "pincode": "364001",
+    "fullGu": "મુ. ભડભીડ, તા. ભાવનગર, જિ. ભાવનગર, ગુજરાત – 364001",
+    "fullEn": "Village Bhadbhid, Taluka Bhavnagar, District Bhavnagar, Gujarat - 364001"
+  },
+  "phone": "+91 97242 32366",
+  "phoneRaw": "9724232366",
+  "whatsapp": "+91 97242 32366",
+  "email": "[TODO: Add School Email]",
+  "principalName": "[TODO: Add Principal Name]",
+  "establishedYear": "[TODO: Add Established Year]",
+  "udiseCode": "[TODO: Add UDISE Code]",
+  "siteUrl": "https://shree-bhadbhid-primary-school.vercel.app",
+  "announcement": "📢 શ્રી ભડભીડ પ્રાથમિક શાળામાં ધોરણ ૧ થી ૮ માં પ્રવેશ માટે વાલીઓ સંપર્ક કરી શકે છે | હેલ્પલાઇન: +91 97242 32366 | મુ. ભડભીડ, તા. જી. ભાવનગર.",
+  "mapEmbedUrl": "https://maps.google.com/maps?q=Bhavnagar%20Gujarat%20Bhadbhid&t=&z=14&ie=UTF8&iwloc=&output=embed",
+  "mapShareLink": "https://www.google.com/maps/dir/?api=1&destination=Bhadbhid+Bhavnagar+Gujarat",
+  "social": {
+    "facebook": "[TODO: Add Facebook URL]",
+    "instagram": "[TODO: Add Instagram URL]",
+    "youtube": "[TODO: Add YouTube Channel URL]"
+  },
+  "stats": {
+    "showStats": false,
+    "totalStudents": "[TODO]",
+    "totalTeachers": "[TODO]",
+    "classrooms": "[TODO]",
+    "computerLab": "[TODO]"
+  }
+}
