@@ -1,29 +1,56 @@
 [
   {
-    "id": "school-intro-video",
-    "titleGu": "શ્રી ભડભીડ પ્રાથમિક શાળા - કેમ્પસ અને શૈક્ષણિક પ્રવૃત્તિઓ દર્શન",
-    "titleEn": "Shree Bhadbhid Primary School - Campus Tour & Activities",
-    "youtubeId": "dQw4w9WgXcQ",
-    "descriptionGu": "શ્રી ભડભીડ પ્રાથમિક શાળા (ભાવનગર) ની શૈક્ષણિક પ્રવૃત્તિઓ, સવારની પ્રાર્થના, રમતગમત અને સ્માર્ટ ક્લાસરૂમની ઝલક. [TODO: શાળાનો વાસ્તવિક યુટ્યુબ વિડીયો ID ઉમેરવો]",
-    "date": "2026-01-10",
+    "id": "shala-praveshotsav-2024",
+    "titleGu": "કન્યા કેળવણી મહોત્સવ અને શાળા પ્રવેશોત્સવ",
+    "titleEn": "Kanya Kelavani Mahotsav & Shala Praveshotsav",
+    "youtubeId": "UaWGftcnuNc",
+    "descriptionGu": "શ્રી ભડભીડ પ્રાથમિક શાળા ખાતે આયોજિત કન્યા કેળવણી મહોત્સવ અને નવા વિદ્યાર્થીઓનો શાળા પ્રવેશોત્સવ કાર્યક્રમ.",
+    "date": "2024-06-25",
     "isFeatured": true
   },
   {
-    "id": "prarthana-sabha-video",
-    "titleGu": "પ્રભાત પ્રાર્થના અને યોગાભ્યાસ પ્રવૃત્તિ",
-    "titleEn": "Morning Assembly & Yoga Session",
-    "youtubeId": "dQw4w9WgXcQ",
-    "descriptionGu": "શાળાના પ્રાંગણમાં દરરોજ સવારે વિદ્યાર્થીઓ દ્વારા ગવાતી સુંદર પ્રાર્થના અને શારીરિક યોગાસનો. [TODO: શાળાનો વાસ્તવિક યુટ્યુબ વિડીયો ID ઉમેરવો]",
-    "date": "2025-12-05",
+    "id": "navratri-2024",
+    "titleGu": "નવરાત્રી મહોત્સવ અને રાસ-ગરબા ઉત્સવ",
+    "titleEn": "Navratri Festival & Ras-Garba Celebration",
+    "youtubeId": "hLT2WsZ0-gA",
+    "descriptionGu": "શાળાના પ્રાંગણમાં પરંપરાગત વસ્ત્રોમાં વિદ્યાર્થીઓ દ્વારા ઉત્સાહપૂર્વક ઉજવાયેલ નવરાત્રી રાસોત્સવ.",
+    "date": "2024-10-12",
     "isFeatured": false
   },
   {
-    "id": "sports-day-highlights",
-    "titleGu": "વાર્ષિક રમતોત્સવ અને દેશી રમતો સ્પર્ધા",
-    "titleEn": "Annual Sports Day Highlights & Traditional Games",
-    "youtubeId": "dQw4w9WgXcQ",
-    "descriptionGu": "બાળકોના સર્વાંગી વિકાસ માટે આયોજિત વાર્ષિક રમત મહોત્સવની ઝાંખી. [TODO: શાળાનો વાસ્તવિક યુટ્યુબ વિડીયો ID ઉમેરવો]",
-    "date": "2025-11-20",
+    "id": "educational-tour-2024",
+    "titleGu": "શૈક્ષણિક પ્રવાસ ભડભીડ પ્રાથમિક શાળા",
+    "titleEn": "Educational Tour - Shree Bhadbhid Primary School",
+    "youtubeId": "8kenArqtMWA",
+    "descriptionGu": "વિદ્યાર્થીઓના જ્ઞાનવર્ધન અને પ્રત્યક્ષ અનુભવ માટે આયોજિત વાર્ષિક શૈક્ષણિક પ્રવાસની સુવર્ણ ક્ષણો.",
+    "date": "2024-02-18",
+    "isFeatured": false
+  },
+  {
+    "id": "science-maths-fair",
+    "titleGu": "ગણિત - વિજ્ઞાન - પર્યાવરણ પ્રદર્શન",
+    "titleEn": "Maths, Science & Environment Exhibition",
+    "youtubeId": "Jdztfjv6P6c",
+    "descriptionGu": "શાળાના વિદ્યાર્થીઓ દ્વારા જાતે તૈયાર કરેલા વિજ્ઞાન અને પર્યાવરણના અવનવા પ્રયોગોનું ભવ્ય પ્રદર્શન.",
+    "date": "2023-11-28",
+    "isFeatured": false
+  },
+  {
+    "id": "yoga-day-celebration",
+    "titleGu": "આંતરરાષ્ટ્રીય યોગ દિવસની ઉત્સાહભેર ઉજવણી",
+    "titleEn": "International Yoga Day Celebration",
+    "youtubeId": "Y7ZJM6BtIqg",
+    "descriptionGu": "સ્વસ્થ શરીર અને તેજસ્વી મન માટે શાળા પરિવાર અને બાળકો દ્વારા સામૂહિક સૂર્યનમસ્કાર અને યોગાસન.",
+    "date": "2024-06-21",
+    "isFeatured": false
+  },
+  {
+    "id": "balmelo-fair",
+    "titleGu": "શાળા બાળમેળો અને આનંદ મેળો",
+    "titleEn": "School Bal Mela & Fun Fair",
+    "youtubeId": "8IfuOBqnUGc",
+    "descriptionGu": "બાળકોમાં સર્જનાત્મકતા, સહકાર્ય અને જીવનકૌશલ્ય ખીલવવા માટે આયોજિત બાળમેળાની ઝાંખી.",
+    "date": "2023-12-15",
     "isFeatured": false
   }
 ]
