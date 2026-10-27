@@ -1,0 +1,96 @@
+backend:
+  name: github
+  repo: Anshal019/SBPS
+  branch: main
+
+media_folder: "assets/images"
+public_folder: "/assets/images"
+
+collections:
+  - name: "blog"
+    label: "શાળા બ્લોગ (Blog Posts)"
+    folder: "content/blog"
+    create: true
+    slug: "{{slug}}"
+    format: "json"
+    fields:
+      - { label: "લેખ શીર્ષક (Title)", name: "title", widget: "string" }
+      - { label: "URL સ્લગ (Slug)", name: "slug", widget: "string" }
+      - { label: "તારીખ (Date)", name: "date", widget: "date", format: "YYYY-MM-DD" }
+      - { label: "લેખકનું નામ (Author)", name: "author", widget: "string", default: "શ્રી ભડભીડ પ્રાથમિક શાળા પરિવાર" }
+      - { label: "મુખ્ય ફોટો (Cover Image)", name: "coverImage", widget: "image" }
+      - { label: "ટૂંકો સારાંશ (Summary)", name: "summary", widget: "text" }
+      - { label: "લેખની વિગત (Content)", name: "content", widget: "markdown" }
+      - { label: "ટેગ્સ (Tags)", name: "tags", widget: "list", required: false }
+
+  - name: "notices"
+    label: "નોટિસ બોર્ડ (Notices)"
+    files:
+      - file: "content/notices.json"
+        label: "સૂચનાઓ / પરિપત્રો (Notices List)"
+        name: "notices_list"
+        fields:
+          - label: "નોટિસ યાદી (Notices)"
+            name: ""
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "શીર્ષક (Gujarati Title)", name: "titleGu", widget: "string" }
+              - { label: "અંગ્રેજી શીર્ષક (English Title)", name: "titleEn", widget: "string" }
+              - { label: "તારીખ (Date)", name: "date", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "કેટેગરી (Category)", name: "categoryGu", widget: "select", options: ["પ્રવેશ", "પરીક્ષા", "સુવિધા", "પરિપત્ર"] }
+              - { label: "બેજ (Badge)", name: "badge", widget: "string" }
+              - { label: "વિગતવાર વર્ણન (Description)", name: "descriptionGu", widget: "text" }
+              - { label: "સંપર્ક નંબર (Phone)", name: "phone", widget: "string", default: "+91 97242 32366" }
+              - { label: "સક્રિય છે? (Active)", name: "active", widget: "boolean", default: true }
+
+  - name: "gallery"
+    label: "ફોટો ગેલેરી (Photo Gallery)"
+    files:
+      - file: "content/gallery.json"
+        label: "ફોટો સંગ્રહ (Gallery Photos)"
+        name: "gallery_photos"
+        fields:
+          - label: "ફોટો યાદી (Photos)"
+            name: ""
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "શીર્ષક (Gujarati Title)", name: "titleGu", widget: "string" }
+              - { label: "અંગ્રેજી શીર્ષક (English Title)", name: "titleEn", widget: "string" }
+              - { label: "કેટેગરી (Category)", name: "category", widget: "select", options: ["કાર્યક્રમો", "રમતગમત", "વર્ગખંડ", "સુવિધાઓ"] }
+              - { label: "ફોટો ફાઇલ (Image)", name: "image", widget: "image" }
+              - { label: "ગુજરાતી વર્ણન / Alt Text", name: "altGu", widget: "string" }
+              - { label: "અંગ્રેજી વર્ણન / Alt Text", name: "altEn", widget: "string" }
+
+  - name: "videos"
+    label: "યુટ્યુબ વિડીયો (YouTube Videos)"
+    files:
+      - file: "content/videos.json"
+        label: "વિડીયો યાદી (Videos List)"
+        name: "videos_list"
+        fields:
+          - label: "વિડીયો (Videos)"
+            name: ""
+            widget: "list"
+            fields:
+              - { label: "ID", name: "id", widget: "string" }
+              - { label: "વિડીયો શીર્ષક (Gujarati Title)", name: "titleGu", widget: "string" }
+              - { label: "YouTube Video ID (દા.ત. UaWGftcnuNc)", name: "youtubeId", widget: "string" }
+              - { label: "વર્ણન (Description)", name: "descriptionGu", widget: "text" }
+              - { label: "તારીખ (Date)", name: "date", widget: "date", format: "YYYY-MM-DD" }
+              - { label: "મુખ્ય ફીચર્ડ વિડીયો છે? (Featured)", name: "isFeatured", widget: "boolean", default: false }
+
+  - name: "settings"
+    label: "શાળા સેટિંગ્સ અને જાહેરાત (Site Settings)"
+    files:
+      - file: "content/site.json"
+        label: "સામાન્ય વિગતો (General Settings)"
+        name: "site_data"
+        fields:
+          - { label: "શાળાનું નામ (Gujarati)", name: "schoolNameGu", widget: "string" }
+          - { label: "શાળાનું નામ (English)", name: "schoolNameEn", widget: "string" }
+          - { label: "અમર સૂત્ર (Motto)", name: "motto", widget: "string" }
+          - { label: "હેલ્પલાઇન ફોન (Phone)", name: "phone", widget: "string" }
+          - { label: "જાહેરાત પટ્ટી મેસેજ (Announcement Bar)", name: "announcement", widget: "string" }
+          - { label: "સરનામું (Address Gujarati)", name: "address.fullGu", widget: "string" }

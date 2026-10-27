@@ -5,7 +5,7 @@
   "main": "build.js",
   "scripts": {
     "build": "node build.js",
-    "start": "npx serve ."
+    "start": "node scripts/server.js"
   },
   "keywords": [
     "shree bhadbhid primary school",
@@ -14,8 +14,5 @@
     "gujarat"
   ],
   "author": "Shree Bhadbhid Primary School",
-  "license": "ISC",
-  "devDependencies": {
-    "sharp": "^0.35.5"
-  }
+  "license": "ISC"
 }
